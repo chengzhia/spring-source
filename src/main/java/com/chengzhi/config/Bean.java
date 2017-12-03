@@ -1,0 +1,41 @@
+package com.chengzhi.config;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * ${DESCRIPTION}
+ *
+ * @param
+ * @author RCZ
+ * @create 2017-12-03 14:04
+ */
+public class Bean {
+    private String name;
+    private String className;
+    private List<Property> properties = new ArrayList<Property>();
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+
+    public List<Property> getProperties() {
+        return properties;
+    }
+
+    public void setProperties(List<Property> properties) {
+        this.properties = properties;
+    }
+}
